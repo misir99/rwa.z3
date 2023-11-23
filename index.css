@@ -14,7 +14,7 @@ img{
     width: 50px;
 }
 header{
-    background-image: url('siroki.png'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+    background-image: url('siroki.png'); 
     background-size: cover;
     background-position: center;
     background-color:pink;
