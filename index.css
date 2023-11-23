@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+img{
+    height: 50px;
+    width: 50px;
+}
+header{
+    background-image: url('siroki.png'); /* Replace 'your-image-url.jpg' with the actual path to your image */
+    background-size: cover;
+    background-position: center;
+    background-color:pink;
+    padding: 5px;
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333333;
+  }
+  
+li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+  }
+
+nav{
+background-color: rgba(123, 0, 255, 0.652);
+padding: 5px;
+text-align: left;
+color: white;
+font-size: 25px;
+}
+nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+
+aside{background-image: url('grb.png');
+        background-size: cover;
+        background-position: center;
+        flex-grow: 2;
+    float: right;
+    width: 20%;
+    height: 650px;
+    background-color: rgb(68, 0, 255);
+    padding: 30px;
+    font-size: 25px;
+   
+}
+
+
+main {
+    min-height: calc(100vh - 120px);
+    flex: 2;
+    max-width: 80%;
+    padding: 20px;
+    height: auto;
+    background-color: rgba(255, 192, 240, 0.5);
+    text-align: justify;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    margin-bottom: 60px;
+}
+
+
+.footer { 
+    
+    position: fixed;
+    left: 0;
+    bottom: 0;
+     width: 100%;
+     background-color:rgba(255, 192, 240, 0.5);
+     color: black;
+     text-align: center;
+ }
+ 
+
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  .menu, .main, .right {
+    width: 100%;
+  }
+}
